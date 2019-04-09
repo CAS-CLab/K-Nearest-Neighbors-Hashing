@@ -6,6 +6,8 @@ Matlab implementation of "K-Nearest Neighbors Hashing".
 * MatLab <= R2016a (CPU only knnsearch)
 
 ### How to use ?
+* Download datasets and unzip to `./datasets`
+* Edit `SETTING` part in `demo.m` 
 
 ### Datasets :
 OneDrive | gist | vggfc7 | uint | alexnet
@@ -17,10 +19,10 @@ Places205 | ☐  | ☐  | ☐  | ✓
 
 Baidu Pan | gist | vggfc7 | uint | alexnet
 ------------ | ------------- | ------------- | ------------- | -------------
-Cifar10 | ✓  | ✓  | ☐  | ☐ 
-MNIST |✓ | ☐  | ✓ | ☐ 
-Labelme | ✓ | ✓ | ☐  | ☐ 
-Places205 | ☐  | ☐  | ☐  | ✓
+Cifar10 | [✓](https://pan.baidu.com/s/1nh-1F3imSeG7KErYWp5ERQ) (irou)  | [✓](https://pan.baidu.com/s/14YyiDcgSX_0zsewwpuVkFg) (0hr5) | ☐  | ☐ 
+MNIST |[✓](https://pan.baidu.com/s/1C6dct3FvRLw1W7eM3kcSGQ) (6d29) | ☐  | [✓](https://pan.baidu.com/s/1H0qRPFWvlUfU7KGmOM1GYw) (masv) | ☐ 
+Labelme | [✓](https://pan.baidu.com/s/1jddzOdGIzPcSzxIxsC2L2A) (47ny) | [✓](https://pan.baidu.com/s/11gFaGeu0sljMgjCdGWn4Og) (b7na) | ☐  | ☐ 
+Places205 | ☐  | ☐  | ☐  | [✓](https://pan.baidu.com/s/1rvKXkl6amuwhjsf2I_s8NQ) (opw9)
 
 `uint` refers to MNIST 784-D (28x28) gray-scale feature vector, which is represented by uint8.
 
