@@ -7,7 +7,14 @@ Matlab implementation of "K-Nearest Neighbors Hashing".
 
 
 ### Datasets :
- -| gist | vggfc7 | uint | alexnet
+OneDrive | gist | vggfc7 | uint | alexnet
+------------ | ------------- | ------------- | ------------- | -------------
+Cifar10 | ✓  | ✓  | ☐  | ☐ 
+MNIST |✓ | ☐  | ✓ | ☐ 
+Labelme | ✓ | ✓ | ☐  | ☐ 
+Places205 | ☐  | ☐  | ☐  | ✓
+
+Baidu Pan | gist | vggfc7 | uint | alexnet
 ------------ | ------------- | ------------- | ------------- | -------------
 Cifar10 | ✓  | ✓  | ☐  | ☐ 
 MNIST |✓ | ☐  | ✓ | ☐ 
