@@ -6,8 +6,20 @@ Matlab implementation of "K-Nearest Neighbors Hashing".
 * MatLab <= R2016a (CPU only knnsearch)
 
 ### How to use ?
-* Download datasets and unzip to `./datasets`
-* Edit `SETTING` part in `demo.m` 
+1. Download datasets and unzip to `./datasets`
+2. Edit `SETTING` part in `demo.m`:
+```matlab
+%% SETTING
+num_bits = 16;
+dataset = 'cifar10'; % cifar10, mnist, labelme, Places205
+feature_type = 'vggfc7'; % gist, vggfc7, uint (MINIST only), alexnet (Places205 only)
+
+gpuDevice_ID = 1; % if CPU-only / you don't want to use GPU, just set it as -1
+
+ITER = 10; % run ITER times
+K = 20; % 200 for Places205
+%%
+```
 
 ### Datasets :
 OneDrive | gist | vggfc7 | uint | alexnet
