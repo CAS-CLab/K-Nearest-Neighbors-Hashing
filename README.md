@@ -5,6 +5,17 @@ Matlab implementation of "K-Nearest Neighbors Hashing".
 * **MatLab >= R2016b** (GPU support knnsearch)
 * MatLab <= R2016a (CPU only knnsearch)
 
+
+### Datasets :
+ -| gist | vggfc7 | uint | alexnet
+------------ | ------------- | ------------- | ------------- | -------------
+Cifar10 | ✓  | ✓  | ☐  | ☐ 
+MNIST |✓ | ☐  | ✓ | ☐ 
+Labelme | ✓ | ✓ | ☐  | ☐ 
+Places205 | ☐  | ☐  | ☐  | ✓
+
+`uint` refers to MNIST 784-D (28x28) gray-scale feature vector, which is represented by uint8.
+
 ### Acknowlegment :
 We would like to thank the authors of [Gemb](https://github.com/hnanhtuan/Gemb) and [MiHash](https://github.com/fcakir/mihash) for sharing their codes! This project is built on previous methods such as [ITQ](http://www.cs.unc.edu/~lazebnik/publications/cvpr11_small_code.pdf), [BA](https://arxiv.org/abs/1501.00756), [KMH](http://kaiminghe.com/publications/cvpr13kmh.pdf), [SH](https://papers.nips.cc/paper/3383-spectral-hashing), [PCAH](http://www.ee.columbia.edu/ln/dvmm/publications/12/PAMI_SSHASH.pdf) and [SPH](https://sglab.kaist.ac.kr/Spherical_Hashing/Spherical_Hashing.pdf).
 
