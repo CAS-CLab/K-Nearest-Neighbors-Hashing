@@ -26,12 +26,12 @@ For Places205, we recommend downloading the precomputed KNN index matrix from Go
 3. run `demo.m`.
 
 ### Demo results :
-mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG
------------- | ------------- | ------------- | ------------- | ------------- | ------------
-16 bit | 17.3 | 53.1 | 15.6 | 29.1 | 20.1
-32 bit | 18.8 | 61.1 | 16.4 | 30.8 | 23.8 
-64 bit | 19.5 | 65.6 | 17.5 | 32.6 | 26.2
-128 bit | 20.0 | 68.3 | 18.1 | 33.7 | 28.2 
+mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG | MNIST-gray
+------------ | ------------- | ------------- | ------------- | ------------- | ------------ | -----------
+16 bit | 17.3 | 53.1 | 15.6 | 29.1 | 20.1 | 47.3
+32 bit | 18.8 | 61.1 | 16.4 | 30.8 | 23.8 | 53.3
+64 bit | 19.5 | 65.6 | 17.5 | 32.6 | 26.2 | 56.0
+128 bit | 20.0 | 68.3 | 18.1 | 33.7 | 28.2 | 58.3
 
 For more detailed results and experimental settings, please refer to our paper.
 
@@ -50,7 +50,7 @@ MNIST |[✓](https://pan.baidu.com/s/1C6dct3FvRLw1W7eM3kcSGQ) (6d29) | ☐  | [�
 Labelme | [✓](https://pan.baidu.com/s/1jddzOdGIzPcSzxIxsC2L2A) (47ny) | [✓](https://pan.baidu.com/s/11gFaGeu0sljMgjCdGWn4Og) (b7na) | ☐  | ☐ 
 Places205 | ☐  | ☐  | ☐  | [✓](https://pan.baidu.com/s/1rvKXkl6amuwhjsf2I_s8NQ) (opw9)
 
-`uint` refers to MNIST 784-D (28x28) gray-scale feature vector, which is represented by uint8.
+`uint` refers to MNIST 784-D (28x28) gray-scale feature vector, which is saved as uint8.
 
 ### Brief Intro :
 <img src="./img/KNNH.png" width="700" height="240" />
