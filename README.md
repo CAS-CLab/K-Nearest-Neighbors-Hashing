@@ -41,7 +41,7 @@ Places205 | ☐  | ☐  | ☐  | [✓](https://pan.baidu.com/s/1rvKXkl6amuwhjsf2
 ### Brief Intro :
 <img src="./img/KNNH.png" width="700" height="240" />
 
-MSE may not lead to the best binary representation. We propose to use the conditional entropy as the criterion.
+MSE may not lead to the optimal binary representation. We propose to use the conditional entropy as the criterion to refine the previous method.
 <img src="./img/KNNH2.png" width="700" height="230" />
 
 ### Acknowlegment :
