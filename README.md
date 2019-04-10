@@ -38,10 +38,10 @@ For more detailed results and experimental settings, please refer to our paper.
 ### Datasets :
 OneDrive | gist | vggfc7 | uint | alexnet
 ------------ | ------------- | ------------- | ------------- | -------------
-Cifar10 | ✓  | ✓  | ☐  | ☐ 
-MNIST |✓ | ☐  | ✓ | ☐ 
-Labelme | ✓ | ✓ | ☐  | ☐ 
-Places205 | ☐  | ☐  | ☐  | ✓
+Cifar10 | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnrlULhhHGy4Q88c)  | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnwSyLlwvS29H7jX)  | ☐  | ☐ 
+MNIST |[✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnkooTeL9ZdtCYtu) | ☐  | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gn1NqWh31pMiZ0xs) | ☐ 
+Labelme | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnu2gPoTrm86tMqH) | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gn5dcG7GrQuktVoC) | ☐  | ☐ 
+Places205 | ☐  | ☐  | ☐  | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gwCewchoZsCs3RZl)
 
 Baidu Pan | gist | vggfc7 | uint | alexnet
 ------------ | ------------- | ------------- | ------------- | -------------
