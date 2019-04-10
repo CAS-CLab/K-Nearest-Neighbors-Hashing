@@ -21,7 +21,7 @@ ITER = 10; % run ITER times
 K = 20; % 200 for Places205
 %%
 ```
-For Places205, we recommend downloading the precomputed KNN index matrix from [GoogleDrive](https://drive.google.com/file/d/111WuiWPEH2lWgOjzd5yjYUHcl4VHksp_/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1YoeV7d1dX233yCuwNEf2dA) (582l), then move it to `./model`. It could be time consuming to generate the results using CPU. 
+For Places205, we recommend downloading the precomputed KNN index matrix from [GoogleDrive](https://drive.google.com/open?id=1RsO5XyinqgPlOgD7Z-Ow50_stYwd7-37) or [Baidu Pan](https://pan.baidu.com/s/1YoeV7d1dX233yCuwNEf2dA) (582l), then move it to `./model`. It could be time consuming to generate the results using CPU. 
 
 3. run `demo.m`.
 
