@@ -64,6 +64,6 @@ for iter = 1:ITER
     v_mAP(iter) = mAP;
     v_P1K(iter) = Ptop1000;
 end
-fprintf('  MEAN : r=2: %f - top1k: %f - mAP: %f \n', num_bits, mean(v_Pr2), mean(v_P1K), mean(v_mAP));
-fprintf('  STD  : r=2: %f - top1k: %f - mAP: %f \n', num_bits, std(v_Pr2)*100, std(v_P1K)*100, std(v_mAP)*100);
+fprintf('  MEAN : r=2: %f - top1k: %f - mAP: %f \n', mean(v_Pr2), mean(v_P1K), mean(v_mAP));
+fprintf('  STD  : r=2: %f - top1k: %f - mAP: %f \n', std(v_Pr2)*100, std(v_P1K)*100, std(v_mAP)*100);
 % mAP_cls./ITER
