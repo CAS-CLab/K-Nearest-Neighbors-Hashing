@@ -3,16 +3,16 @@ function KNNHparam = trainKNNH(X, KNNHparam)
 % Input:
 %          X: n*d, n is the number of images
 %          KNNHparam:
-%               KNNHparam.pcaW  : PCA of all the database
+%               KNNHparam.pcaW  : PCA projection
 %               KNNHparam.nbits : encoding length
 %               KNNHparam.K     : K in KNN
-%               KNNHparam.times : interations of KNN Shrinkage
+%               KNNHparam.times : iterations of KNN Shrinkage
 %               KNNHparam.gpu   : use gpu or not
 %               KNNHparam.idX   : Places205 precomputed index matrix
 %               
 % Output:
 %          KNNHparam:
-%               KNNHparam.pcaW  : PCA of all the database
+%               KNNHparam.pcaW  : PCA projection
 %               KNNHparam.nbits : encoding length
 %               KNNHparam.r     : KNNH linear projection
 %               KNNHparam.B     : learned binary representation of the gallery set
