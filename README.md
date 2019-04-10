@@ -35,7 +35,7 @@ mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG | MNI
 
 For more detailed results and experimental settings, please refer to our paper.
 
-### Datasets :
+### Dataset Links:
 OneDrive | gist | vggfc7 | uint | alexnet
 ------------ | ------------- | ------------- | ------------- | -------------
 Cifar10 | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnrlULhhHGy4Q88c)  | [✓](https://1drv.ms/u/s!Av1MQK8mV3J8gnwSyLlwvS29H7jX)  | ☐  | ☐ 
