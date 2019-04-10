@@ -12,7 +12,7 @@ Matlab implementation of "K-Nearest Neighbors Hashing".
 ```matlab
 %% SETTING
 num_bits = 16;
-dataset = 'cifar10'; % cifar10, mnist, labelme, Places205
+dataset = 'cifar10'; % cifar10, mnist, labelme, places
 feature_type = 'vggfc7'; % gist, vggfc7, uint (MINIST only), alexnet (Places205 only)
 
 gpuDevice_ID = 1; % if CPU-only / you don't want to use GPU, just set it as -1
