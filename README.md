@@ -21,17 +21,17 @@ ITER = 10; % run ITER times
 K = 20; % 200 for Places205
 %%
 ```
-For Places205, we recommend downloading the precomputed KNN index matrix from [GoogleDrive](https://drive.google.com/file/d/111WuiWPEH2lWgOjzd5yjYUHcl4VHksp_/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1z5ZRHhZR185z07pqKt4siQ) (e3jn), then move it to `./model`. It could be time consuming to generate the results using CPU. 
+For Places205, we recommend downloading the precomputed KNN index matrix from [GoogleDrive](https://drive.google.com/file/d/111WuiWPEH2lWgOjzd5yjYUHcl4VHksp_/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1YoeV7d1dX233yCuwNEf2dA) (582l), then move it to `./model`. It could be time consuming to generate the results using CPU. 
 
 3. run `demo.m`.
 
 ### Demo results :
-mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG | MNIST-gray
------------- | ------------- | ------------- | ------------- | ------------- | ------------ | -----------
-16 bit | 17.3 | 53.1 | 15.6 | 29.1 | 20.1 | 47.3
-32 bit | 18.8 | 61.1 | 16.4 | 30.8 | 23.8 | 53.3
-64 bit | 19.5 | 65.6 | 17.5 | 32.6 | 26.2 | 56.0
-128 bit | 20.0 | 68.3 | 18.1 | 33.7 | 28.2 | 58.3
+mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG | MNIST-gray | Places205-alexnet
+------------ | ------------- | ------------- | ------------- | ------------- | ------------ | ----------- | -------------
+16 bit | 17.3 | 53.1 | 15.6 | 29.1 | 20.1 | 47.3 | 7.7
+32 bit | 18.8 | 61.1 | 16.4 | 30.8 | 23.8 | 53.3 | 12.2
+64 bit | 19.5 | 65.6 | 17.5 | 32.6 | 26.2 | 56.0 | 15.9
+128 bit | 20.0 | 68.3 | 18.1 | 33.7 | 28.2 | 58.3 | 17.9
 
 For more detailed results and experimental settings, please refer to our paper.
 
