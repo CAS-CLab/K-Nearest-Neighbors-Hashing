@@ -29,6 +29,7 @@ For Places205, we recommend downloading the precomputed KNN index matrix from [G
 mAP | Cifar10-Gist | MNIST-Gist | LabelMe-Gist | Cifar10-VGG | LabelMe-VGG | MNIST-gray | Places205-alexnet
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------ | ----------- | -------------
 16 bit | 17.3 | 53.1 | 15.6 | 29.1 | 20.1 | 47.3 | 7.7
+24 bit | 18.1 | 59.6 | 16.0 | 30.3 | 22.0 | 52.7 | 10.1
 32 bit | 18.8 | 61.1 | 16.4 | 30.8 | 23.8 | 53.3 | 12.2
 64 bit | 19.5 | 65.6 | 17.5 | 32.6 | 26.2 | 56.0 | 15.9
 128 bit | 20.0 | 68.3 | 18.1 | 33.7 | 28.2 | 58.3 | 17.9
