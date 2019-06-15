@@ -75,7 +75,7 @@ We would like to thank the authors of [Gemb](https://github.com/hnanhtuan/Gemb) 
 
 ### References :
 ```bib
-@article{KNNH,
+@InProceedings{KNNH,
   author    = {Xiangyu He and Peisong Wang and Jian Cheng},
   title     = {K-Nearest Neighbors Hashing},
   booktitle = {2019 {IEEE} Conference on Computer Vision and Pattern Recognition},
